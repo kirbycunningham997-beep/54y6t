@@ -1,0 +1,14 @@
+# dependencies (there are none, but just in case)
+node_modules/
+
+# environment secrets
+.env
+
+# database + sqlite sidecar files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# logs / os cruft
+*.log
+.DS_Store
